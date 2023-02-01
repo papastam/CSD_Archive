@@ -1,3 +1,6 @@
 [submodule "HY240/HY240_project"]
 	path = HY240/HY240_project
 	url = https://github.com/papastam/HY240_project
+[submodule "HY436"]
+	path = HY436
+	url = https://github.com/papastam/HY436
