@@ -1,0 +1,51 @@
+Christos Papastamos
+    csd4569
+
+
+Askhsh 1:
+a)
+	To output einai: <<The sum from 0 to 1000 is 500500>>
+
+d)
+  	H main einai 19 entoles oi opoies katalamvanoun 72 bytes mnhmhs
+	To idaniko breakpoint offset einai 28
+    
+e)
+  	S=500500 &S=0x80496a0
+  	Msg = "The sum from 0 to %d is %d\n" &Msg = 0x80496a4
+  
+	To output einai: <<The sum from 0 to 1000 is 99>>
+  
+
+Askhsh 2:
+a)
+    
+	To output einai: <<The sum from 0 to 1000 is 500500>>
+
+b)
+	I main einai 28 entoles
+
+c)  
+  	H main einai 28 entoles oi opoies katalamvanoun 96 bytes mnhmhs
+  	To idaniko breakpoint offset einai 58
+
+e)
+	 Sum=500500 &Sum=0x8049704
+	 n=-1 &n=0x80496fc
+	 Output if programm:
+ 	 The sum from 0 to 1000 is 98
+ 	 The sum from 0 to 1000 is 99
+
+f)
+	To output einai: <<The sum from 0 to 1000 is 495450>>
+
+
+Askhsh 3:
+a)
+ 	To output einai: <<The sum from 0 to 1000 is 500500>>
+
+b)
+ 	I main einai 24 assembly entoles.
+
+c)
+	To output einai: <<The sum from 0 to 1000 is 500500>>
