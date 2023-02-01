@@ -1,0 +1,53 @@
+<script>
+    $(document).ready(function(){
+        if(usercachedinfo["age"]<10 || usercachedinfo["height"]<50 || usercachedinfo["weight"]<10){
+            $("#healthstats").append("<li>Your data is invalid to calculate your BMI! Concider updating them from the <a onclock='showusrinfo()'>User Info</a> panel to recieve health statisctics</li>")
+        }else {
+            //BMI API
+            const databmi = null;
+
+            const xhrbmi = new XMLHttpRequest();
+            xhrbmi.withCredentials = true;
+
+            xhrbmi.addEventListener("readystatechange", function () {
+                if (this.readyState === this.DONE && xhrbmi.status === 200) {
+                    var response = JSON.parse(this.responseText);
+
+                    $("#healthstats").append("<li>Your bmi is: "+response["data"]["bmi"]+"</li>");
+                    $("#healthstats").append("<li>Your health status is: "+response["data"]["health"]+"</li>");
+                }
+            });
+
+
+            xhrbmi.open("GET", "https://fitness-calculator.p.rapidapi.com/bmi?age=" + usercachedinfo["age"] + "&weight=" + usercachedinfo["weight"] + "&height=" + usercachedinfo["height"]);
+            xhrbmi.setRequestHeader("x-rapidapi-host", "fitness-calculator.p.rapidapi.com");
+            xhrbmi.setRequestHeader("x-rapidapi-key", "bd2e97d2d1msh175dda3181f8171p1988aejsnf9cec4a9c8d3");
+            xhrbmi.send(databmi);
+
+            //IDEAL WEIGHT API
+            const dataidealw = null;
+
+            const xhridealw = new XMLHttpRequest();
+            xhridealw.withCredentials = true;
+
+            xhridealw.addEventListener("readystatechange", function () {
+                if (this.readyState === this.DONE) {
+                    var devine = JSON.parse(this.responseText);
+
+                    $("#healthstats").append("<li>Your ideal weight (According to the devine formula) is: "+devine["data"]["Devine"]+"</li>");
+                }
+            });
+
+            xhridealw.open("GET", "https://fitness-calculator.p.rapidapi.com/idealweight?gender="+usercachedinfo["gender"].toLowerCase()+"&height="+usercachedinfo["height"]);
+            xhridealw.setRequestHeader("x-rapidapi-host", "fitness-calculator.p.rapidapi.com");
+            xhridealw.setRequestHeader("x-rapidapi-key", "bd2e97d2d1msh175dda3181f8171p1988aejsnf9cec4a9c8d3");
+
+            xhridealw.send(dataidealw);
+        }
+    });
+</script>
+<header><h4 class="title">Your health statistics</h4></header>
+<br>
+<ul id="healthstats">
+
+</ul>

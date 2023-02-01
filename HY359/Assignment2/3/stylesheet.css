@@ -1,0 +1,64 @@
+p{
+  margin-bottom: 2px;
+}
+
+td{
+	width: 100px;
+	height: 100px;
+	border: solid 1px;
+	padding: 0px;
+}
+
+table{
+	/*border: solid;*/
+}
+
+img{
+	width: 100px;
+	height: 100px;
+	border: none;
+}
+
+#board{
+	background-image: url("board.png");
+	background-repeat: no-repeat;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container-infocard {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item-infocard {
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} 

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Author" content="Chris Papastamos">
+	<meta name="Description" content="Second assignment of hy359 course">
+	<meta name="Theme" content="A Score 4 game">
+	<meta name="keywords" content="hy359, Chris Papastamos, CSD, UOC">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+	<title>Score 4</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+	<script src="script.js"> </script>
+</head>
+<body onload="newGame()">
+	<div class="grid-container">
+		<div class="grid-item">
+			<table id="board">
+				<tr>
+					<td onclick="play(0,0)"><img class="pcell" id="c0_0"></td>
+					<td onclick="play(0,1)"><img class="pcell" id="c0_1"></td>
+					<td onclick="play(0,2)"><img class="pcell" id="c0_2"></td>
+					<td onclick="play(0,3)"><img class="pcell" id="c0_3"></td>
+					<td onclick="play(0,4)"><img class="pcell" id="c0_4"></td>
+					<td onclick="play(0,5)"><img class="pcell" id="c0_5"></td>
+					<td onclick="play(0,6)"><img class="pcell" id="c0_6"></td>
+				</tr>
+				<tr>
+					<td onclick="play(1,0)"><img class="pcell" id="c1_0"></td>
+					<td onclick="play(1,1)"><img class="pcell" id="c1_1"></td>
+					<td onclick="play(1,2)"><img class="pcell" id="c1_2"></td>
+					<td onclick="play(1,3)"><img class="pcell" id="c1_3"></td>
+					<td onclick="play(1,4)"><img class="pcell" id="c1_4"></td>
+					<td onclick="play(1,5)"><img class="pcell" id="c1_5"></td>
+					<td onclick="play(1,6)"><img class="pcell" id="c1_6"></td>
+				</tr>
+				<tr>
+					<td onclick="play(2,0)"><img class="pcell" id="c2_0"></td>
+					<td onclick="play(2,1)"><img class="pcell" id="c2_1"></td>
+					<td onclick="play(2,2)"><img class="pcell" id="c2_2"></td>
+					<td onclick="play(2,3)"><img class="pcell" id="c2_3"></td>
+					<td onclick="play(2,4)"><img class="pcell" id="c2_4"></td>
+					<td onclick="play(2,5)"><img class="pcell" id="c2_5"></td>
+					<td onclick="play(2,6)"><img class="pcell" id="c2_6"></td>
+				</tr>
+				<tr>
+					<td onclick="play(3,0)"><img class="pcell" id="c3_0"></td>
+					<td onclick="play(3,1)"><img class="pcell" id="c3_1"></td>
+					<td onclick="play(3,2)"><img class="pcell" id="c3_2"></td>
+					<td onclick="play(3,3)"><img class="pcell" id="c3_3"></td>
+					<td onclick="play(3,4)"><img class="pcell" id="c3_4"></td>
+					<td onclick="play(3,5)"><img class="pcell" id="c3_5"></td>
+					<td onclick="play(3,6)"><img class="pcell" id="c3_6"></td>
+				</tr>
+				<tr>
+					<td onclick="play(4,0)"><img class="pcell" id="c4_0"></td>
+					<td onclick="play(4,1)"><img class="pcell" id="c4_1"></td>
+					<td onclick="play(4,2)"><img class="pcell" id="c4_2"></td>
+					<td onclick="play(4,3)"><img class="pcell" id="c4_3"></td>
+					<td onclick="play(4,4)"><img class="pcell" id="c4_4"></td>
+					<td onclick="play(4,5)"><img class="pcell" id="c4_5"></td>
+					<td onclick="play(4,6)"><img class="pcell" id="c4_6"></td>
+				</tr>
+				<tr>
+					<td onclick="play(5,0)"><img class="pcell" id="c5_0"></td>
+					<td onclick="play(5,1)"><img class="pcell" id="c5_1"></td>
+					<td onclick="play(5,2)"><img class="pcell" id="c5_2"></td>
+					<td onclick="play(5,3)"><img class="pcell" id="c5_3"></td>
+					<td onclick="play(5,4)"><img class="pcell" id="c5_4"></td>
+					<td onclick="play(5,5)"><img class="pcell" id="c5_5"></td>
+					<td onclick="play(5,6)"><img class="pcell" id="c5_6"></td>
+				</tr>
+			</table>
+		</div>
+		<div class="grid-item">
+			<div class="grid-container-infotab">
+				<div class="grid-item-infocard" id="playingfield">
+					<a>Playing: </a>
+					<a style="color: red;" id="activeplayer">RED </a>
+				</div>
+				<div class="grid-item-infocard">
+					<p><a>Empty cells remaining: </a><a id="emptycells">42</a></p>
+					<p><a>Completed moves: </a><a id="usedcells">0</a></p>
+				</div>
+				<div class="grid-item-infocard">
+					
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
