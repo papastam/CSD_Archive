@@ -7,17 +7,17 @@ The full course list can be found [here](https://www.csd.uoc.gr/CSD/index.jsp?co
 ## 1st Semester *(winter 2019)*
 - [HY100](/HY100/): Introduction to Computer Science *[(website)](https://csd.uoc.gr/~hy100/)*
 - ~~HY110~~: Calculus I *[(website)](https://csd.uoc.gr/~hy110/)*
-- ~~HY120~~: Digital Design	*[(website)](https://csd.uoc.gr/~hy120/)*
+- ~~HY120~~: Digital Design	*[(website)](https://csd.uoc.gr/~hy120/index19f.html)*
 - ~~HY112~~: Physics I *[(website)](https://csd.uoc.gr/~hy112/)*
 - ~~HY108~~: English I *[(website)](https://csd.uoc.gr/~hy108/)*
 
 ## 2nd Semester *(spring 2020)*
 
 - ~~HY109~~: English II *[(website)](https://csd.uoc.gr/~hy109/)*
-- ~~HY118~~: Descrete Mathematics *[(website)](https://csd.uoc.gr/~hy118/)*
+- ~~HY118~~: Descrete Mathematics *[(website)](http://users.ics.forth.gr/~argyros/cs118diary)*
 - ~~HY119~~: Linear Algebra *[(website)](https://csd.uoc.gr/~hy119/)*
 - [HY150](/HY150/): Introduction to Programming *[(website)](https://csd.uoc.gr/~hy150a/)*
-- [HY225](HY225): Computer Organization *[(website)](https://csd.uoc.gr/~hy225/)*
+- [HY225](HY225): Computer Organization *[(website)](https://csd.uoc.gr/~hy225/index20a.html)*
 
 ## 3rd Semester *(winter 2020)*
 
@@ -47,5 +47,5 @@ The full course list can be found [here](https://www.csd.uoc.gr/CSD/index.jsp?co
 
 ## 7th Semester *(winter 2022)*
 
-- [HY436](/HY436/): Software Defined Networks *[(website)](https://csd.uoc.gr/~hy436/)*
+- [HY436](/HY436/): Software Defined Networks *[(website)](https://github.com/papastam/HY436)*
 - [HY452](/HY425/): Introduction to the Science and Technology of Services *[(website)](https://csd.uoc.gr/~hy452/)*
