@@ -1,0 +1,4 @@
+max: Inez Wheeler 3552 4.79
+min: Inez Wheeler 3552 4.79
+average: 4.78
+Inez Wheeler 3552 4.79

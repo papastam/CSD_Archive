@@ -1,0 +1,13 @@
+max: Sean Bowman 3112 8.85
+min: Rochelle Silva 1554 2.52
+average: 5.41
+Rochelle Silva 1554 2.52
+Gwen Harrington 1277 2.83
+Helen Holmes 4045 3.3
+Ivan Vasquez 219 3.55
+Inez Wheeler 3552 4.79
+Shannon Barnett 2025 5.66
+Deanna Little 4319 6.48
+Eloise Webb 4716 7.96
+Caleb Warren 3758 8.21
+Sean Bowman 3112 8.85

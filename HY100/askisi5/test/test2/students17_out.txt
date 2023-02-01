@@ -1,0 +1,20 @@
+max: Christina Christensen 923 9.79
+min: Wade Rogers 1253 2.56
+average: 5.67
+Wade Rogers 1253 2.56
+Nancy Welch 977 2.8
+Miranda Morrison 4111 3.51
+Christina Christensen 2254 3.52
+Traci Curry 671 3.58
+Deanna Little 1881 4.1
+Tara Steele 1672 4.45
+Rosie Park 151 5.11
+Jeff Salazar 2028 5.15
+Raul Howell 2084 5.53
+Pete Baldwin 179 5.68
+Sherri Jacobs 497 7.72
+Paula Weber 958 7.81
+Helen Holmes 1095 7.87
+Tara Steele 4102 8.17
+Casey Gregory 399 9.11
+Christina Christensen 923 9.79
