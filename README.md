@@ -1,21 +1,35 @@
-# CSD@UoC Archived Classes
-In this repository you can find the classes i attended at the Computer Science Department of the University of Crete.
+# [CSD](https://csd.uoc.gr)@[UoC](https://www.uoc.gr/) Archived Classes
+In this repository you can find the classes i attended at the [Computer Science Department](https://csd.uoc.gr) of the [University of Crete](https://www.uoc.gr/).
 
+The full course list can be found [here](https://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=en).
 # Classes
-
+*MEMO: The classes are sorted by semester and then by course code. The classes with ~~strikethrough~~ format are classes i attended but i have no saved matterial*
 ## 1st Semester *(winter 2019)*
 - [HY100](/HY100/): Introduction to Computer Science *[(website)](https://csd.uoc.gr/~hy100/)*
+- ~~HY110~~: Calculus I *[(website)](https://csd.uoc.gr/~hy110/)*
+- ~~HY120~~: Digital Design	*[(website)](https://csd.uoc.gr/~hy120/)*
+- ~~HY112~~: Physics I *[(website)](https://csd.uoc.gr/~hy112/)*
+- ~~HY108~~: English I *[(website)](https://csd.uoc.gr/~hy108/)*
 
 ## 2nd Semester *(spring 2020)*
+
+- ~~HY109~~: English II *[(website)](https://csd.uoc.gr/~hy109/)*
+- ~~HY118~~: Descrete Mathematics *[(website)](https://csd.uoc.gr/~hy118/)*
+- ~~HY119~~: Linear Algebra *[(website)](https://csd.uoc.gr/~hy119/)*
 - [HY150](/HY150/): Introduction to Programming *[(website)](https://csd.uoc.gr/~hy150a/)*
 - [HY225](HY225): Computer Organization *[(website)](https://csd.uoc.gr/~hy225/)*
 
 ## 3rd Semester *(winter 2020)*
 
+- ~~HY208~~: English III *[(website)](https://csd.uoc.gr/~hy208/)*
+- ~~HY217~~: Probability Theory I *[(website)](https://csd.uoc.gr/~hy217/)*
 - [HY240](/HY240/): Data Structures *[(website)](https://csd.uoc.gr/~hy240/)*
+- ~~HY280~~: Theory of Computation *[(website)](https://csd.uoc.gr/~hy280/)*
 
 ## 4th Semester *(spring 2021)*
 
+- ~~HY209~~: English IV *[(website)](https://csd.uoc.gr/~hy209/)*
+- [HY215](/HY215/): Applied Mathematics for Engineers *[(website)](https://csd.uoc.gr/~hy215/)*
 - [HY255](/HY255/): Systems Programming Lab *[(website)](https://csd.uoc.gr/~hy255/)*
 - [HY335b](/HY335b/): Computer Networks *[(website)](https://csd.uoc.gr/~hy335b/)*
 
@@ -27,6 +41,7 @@ In this repository you can find the classes i attended at the Computer Science D
 - [HY359](/HY359/): Web Programming *[(website)](https://csd.uoc.gr/~hy359/)*
 
 ## 6th Semester *(spring 2022)*
+
 - [HY435](/HY435/): Network Technology & Programming *[(website)](https://csd.uoc.gr/~hy435/)*
 - [HY340](/HY340/): Compilers *[(website)](https://csd.uoc.gr/~hy340/)*
 
