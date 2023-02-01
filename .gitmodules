@@ -16,3 +16,6 @@
 [submodule "HY435/HY435_Lab"]
 	path = HY435/HY435_Lab
 	url = https://github.com/papastam/HY435_Lab
+[submodule "HY335a/HY335_project"]
+	path = HY335a/HY335_project
+	url = https://github.com/papastam/HY335_project
