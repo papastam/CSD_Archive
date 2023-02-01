@@ -4,3 +4,6 @@
 [submodule "HY436"]
 	path = HY436
 	url = https://github.com/papastam/HY436
+[submodule "HY340/HY340_Project"]
+	path = HY340/HY340_Project
+	url = https://github.com/papastam/HY340_Project
