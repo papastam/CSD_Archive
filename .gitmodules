@@ -7,3 +7,6 @@
 [submodule "HY340/HY340_Project"]
 	path = HY340/HY340_Project
 	url = https://github.com/papastam/HY340_Project
+[submodule "HY360/HY360_project"]
+	path = HY360/HY360_project
+	url = https://github.com/papastam/HY360_project
