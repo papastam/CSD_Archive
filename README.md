@@ -35,15 +35,15 @@ The full course list can be found [here](https://www.csd.uoc.gr/CSD/index.jsp?co
 
 ## 5th Semester *(winter 2021)*
 
-- [HY345](/HY345/): Operating Systems *[(website)](https://csd.uoc.gr/~hy345/)*
-- [HY360](/HY360/): Files and Databases *[(website)](https://csd.uoc.gr/~hy360/)*
 - [HY335a](/HY335a/): Computer Networks *[(website)](https://csd.uoc.gr/~hy335a/)*
+- [HY345](/HY345/): Operating Systems *[(website)](https://csd.uoc.gr/~hy345/)*
 - [HY359](/HY359/): Web Programming *[(website)](https://csd.uoc.gr/~hy359/)*
+- [HY360](/HY360/): Files and Databases *[(website)](https://csd.uoc.gr/~hy360/)*
 
 ## 6th Semester *(spring 2022)*
 
-- [HY435](/HY435/): Network Technology & Programming *[(website)](https://csd.uoc.gr/~hy435/)*
 - [HY340](/HY340/): Compilers *[(website)](https://csd.uoc.gr/~hy340/)*
+- [HY435](/HY435/): Network Technology & Programming *[(website)](https://csd.uoc.gr/~hy435/)*
 
 ## 7th Semester *(winter 2022)*
 
