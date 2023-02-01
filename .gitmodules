@@ -13,3 +13,6 @@
 [submodule "HY359/HY359_project"]
 	path = HY359/HY359_project
 	url = https://github.com/papastam/HY359_project
+[submodule "HY435/HY435_Lab"]
+	path = HY435/HY435_Lab
+	url = https://github.com/papastam/HY435_Lab
