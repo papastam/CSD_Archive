@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<net gridActive="true" id="0" netclass="Automata" sharpEdges="false"
+  xmlns="http://timenet.tu-ilmenau.de/schema/Automata"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://timenet.tu-ilmenau.de/schema/Automata etc/schemas/Automata.xsd">
+  <place InitialState="false" id="0.0" stationaryStateProbabilities="-" type="node">
+    <graphics orientation="0" x="590" y="110"/>
+    <label id="0.0.0" text="ReceivedBids" type="text">
+      <graphics x="-10" y="-40"/>
+    </label>
+  </place>
+  <place InitialState="false" id="0.1" stationaryStateProbabilities="-" type="node">
+    <graphics orientation="0" x="470" y="240"/>
+    <label id="0.1.0" text="Bidding" type="text">
+      <graphics x="-10" y="30"/>
+    </label>
+  </place>
+  <place InitialState="false" id="0.2" stationaryStateProbabilities="-" type="node">
+    <graphics orientation="0" x="720" y="170"/>
+    <label id="0.2.0" text="AdsReady" type="text">
+      <graphics x="-10" y="-40"/>
+    </label>
+  </place>
+  <place InitialState="false" id="0.6" stationaryStateProbabilities="-" type="node">
+    <graphics orientation="0" x="130" y="110"/>
+    <label id="0.6.0" text="Advertiser1" type="text">
+      <graphics x="-10" y="-40"/>
+    </label>
+  </place>
+  <place InitialState="false" id="0.9" stationaryStateProbabilities="-" type="node">
+    <graphics orientation="0" x="130" y="240"/>
+    <label id="0.9.0" text="Advertiser2" type="text">
+      <graphics x="-10" y="-40"/>
+    </label>
+  </place>
+  <place InitialState="false" id="0.10" stationaryStateProbabilities="-" type="node">
+    <graphics orientation="0" x="130" y="370"/>
+    <label id="0.10.0" text="Advertiser3" type="text">
+      <graphics x="-10" y="-40"/>
+    </label>
+  </place>
+  <place InitialState="false" id="0.11" stationaryStateProbabilities="-" type="node">
+    <graphics orientation="0" x="990" y="230"/>
+    <label id="0.11.0" text="Client" type="text">
+      <graphics x="-10" y="-40"/>
+    </label>
+  </place>
+  <place InitialState="false" id="0.16" stationaryStateProbabilities="-" type="node">
+    <graphics orientation="0" x="590" y="370"/>
+    <label id="0.16.0" text="RoundEnd" type="text">
+      <graphics x="-10" y="30"/>
+    </label>
+  </place>
+  <place InitialState="false" id="0.20" stationaryStateProbabilities="-" type="node">
+    <graphics orientation="0" x="720" y="270"/>
+    <label id="0.20.0" text="WaitForInteraction" type="text">
+      <graphics x="-90" y="-10"/>
+    </label>
+  </place>
+  <arc TransitionRate="" fromNode="0.1" id="0.3" toNode="0.0" type="connector">
+    <inscription id="0.3.0" text="BiddingFinished" type="inscriptionText">
+      <graphics x="-50" y="5"/>
+    </inscription>
+  </arc>
+  <arc TransitionRate="" fromNode="0.0" id="0.4" toNode="0.2" type="connector">
+    <inscription id="0.4.0" text="CalculateRevenue" type="inscriptionText">
+      <graphics x="-85" y="0"/>
+    </inscription>
+  </arc>
+  <arc TransitionRate="" fromNode="0.6" id="0.7" toNode="0.0" type="connector">
+    <inscription id="0.7.0" text="PublishMaxPrice" type="inscriptionText">
+      <graphics x="-55" y="-20"/>
+    </inscription>
+  </arc>
+  <arc TransitionRate="" fromNode="0.9" id="0.15" toNode="0.0" type="connector">
+    <inscription id="0.15.0" text="PublishMaxPrice" type="inscriptionText">
+      <graphics x="-55" y="-20"/>
+    </inscription>
+  </arc>
+  <arc TransitionRate="" fromNode="0.10" id="0.14" toNode="0.0" type="connector">
+    <inscription id="0.14.0" text="PublishMaxPrice" type="inscriptionText">
+      <graphics x="-55" y="-20"/>
+    </inscription>
+  </arc>
+  <arc TransitionRate="" fromNode="0.16" id="0.18" toNode="0.1" type="connector">
+    <inscription id="0.18.0" text="RoundReset" type="inscriptionText">
+      <graphics x="-40" y="-15"/>
+    </inscription>
+  </arc>
+  <arc TransitionRate="" fromNode="0.11" id="0.17" toNode="0.16" type="connector">
+    <inscription id="0.17.0" text="Interact" type="inscriptionText">
+      <graphics x="-5" y="0"/>
+    </inscription>
+  </arc>
+  <arc TransitionRate="" fromNode="0.16" id="0.8" toNode="0.6" type="connector">
+    <inscription id="0.8.0" text="PostResults" type="inscriptionText">
+      <graphics x="-10" y="15"/>
+    </inscription>
+  </arc>
+  <arc TransitionRate="" fromNode="0.16" id="0.12" toNode="0.9" type="connector">
+    <inscription id="0.12.0" text="PostResults" type="inscriptionText">
+      <graphics x="-10" y="35"/>
+    </inscription>
+    <handle id="0.12.1">
+      <graphics orientation="0" x="331" y="297"/>
+    </handle>
+  </arc>
+  <arc TransitionRate="" fromNode="0.16" id="0.13" toNode="0.10" type="connector">
+    <inscription id="0.13.0" text="PostResults" type="inscriptionText">
+      <graphics x="-10" y="35"/>
+    </inscription>
+  </arc>
+  <arc TransitionRate="" fromNode="0.2" id="0.19" toNode="0.11" type="connector">
+    <inscription id="0.19.0" text="PublishAds" type="inscriptionText">
+      <graphics x="0" y="0"/>
+    </inscription>
+  </arc>
+  <arc TransitionRate="" fromNode="0.2" id="0.5" toNode="0.20" type="connector">
+    <inscription id="0.5.0" text="PublishAds" type="inscriptionText">
+      <graphics x="-80" y="-10"/>
+    </inscription>
+  </arc>
+  <arc TransitionRate="" fromNode="0.20" id="0.21" toNode="0.16" type="connector">
+    <inscription id="0.21.0" text="ClientsInteracted" type="inscriptionText">
+      <graphics x="0" y="0"/>
+    </inscription>
+  </arc>
+</net>
