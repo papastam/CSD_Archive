@@ -1,0 +1,3 @@
+# HY225: Computer Organization *[(website)](https://csd.uoc.gr/~hy225/index20a.html)*
+
+Comprehensive introduction to current processor implementation technology. Machine language and assembly language as the hardware-to-software interface. Example machine language of a RISC processor architecture. Processor design using registers, multiplexers, decoders, ALUs, PLAs, RAMs, etc. Datapath design. Design of the control unit. Virtual memory. Peripheral devices and their attachment to the central unit. Interrupts. Brief introduction to micro-programming, pipelining, cache memory, and to parallel processors. Introduction to processor performance. Exercises and design project of a RISC processor, including its functional simulation at the register-transfer level.

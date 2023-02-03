@@ -1,0 +1,3 @@
+# HY255: Systems Programming Lab *[(website)](https://csd.uoc.gr/~hy255/)*
+
+The purpose of this course is to provide a solid understanding of the fundamentals in programming systems. The course covers three basic aspects of programming systems: The machine view usually presented to the programmer and the language interface to this view, program design and implementation, and programming tools that abstract tedious processes. The course uses mainly the C programming language and the Unix environment.
