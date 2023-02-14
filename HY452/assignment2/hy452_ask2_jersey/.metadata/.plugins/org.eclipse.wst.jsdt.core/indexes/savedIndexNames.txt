@@ -1,0 +1,3 @@
+INDEX VERSION 1.4+D:\Coding stuff\Classes\hy452\assignment2\hy452_ask2_jersey\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+961817989.index
+1342381753.index

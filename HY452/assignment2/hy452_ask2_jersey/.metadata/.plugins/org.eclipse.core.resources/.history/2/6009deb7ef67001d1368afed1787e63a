@@ -1,0 +1,23 @@
+package com.example.TaskC_hy452;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@SpringBootApplication
+@RestController
+public class TaskCHy452Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TaskCHy452Application.class, args);
+	}
+	
+	@GetMapping("/CurrencyExchange")
+	public String hello(@RequestParam(value= "from", defaultValue= "EUR")String from, @RequestParam(value= "from", defaultValue="USD" String to) {
+		return String.format("Hello %s!", name);
+	}
+
+}
