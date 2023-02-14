@@ -1,0 +1,23 @@
+//Xristos Papastamos csd4569
+Narrow Road:
+Every car is simulated by a thread and every thread has a random int as a direction
+Every thread is first of all checking if there are less than 3 cars on the road (using the allowedCars semaphore). 
+if so the current direction of the road. If there is no ongoing traffic 
+it is entering a critical section in order to chenge the roads direction.
+After that, the car is locking the dirchange semaphore and it enters the road.
+Using nanosleep, the car sleeps for some seconds to simulate the crossing of the road and after 
+it has reached the end, it posts to the allowedCars semaphore
+
+Ferry:
+Similarly to the narrow road problem, every car is simulated using a thread. Every ferry route is simulated using a thread too.
+At first a ferry route is launched to pick up the first 20 cars that will arrive.
+After that all the cars are initialized and instantly sleep for 0-10 seconds randomly to simulate the different arrival times.
+After that, each car uses carSlots semaphore to check if more than 20 cars have loaded the ferry. If not, it checks if the 
+boardBarrier is locked (controlled by the ferry).
+If the boardingBarrier is unlocked, the car loads onto the ferry and waits for the ferry to unlock the disembarkBarrier in order for 
+the car to disembark and the thread to exit.
+After the first ferry arrives, the next one is starting the boarding process (using the ferryRoute mutex, only one ferry thread an 
+exist at the same time).This happens by loking the disembarkBarrier and unlocking the boardBarrier.
+Then the ferry waits for the carsBoarded to reach 20 (or the remaining cars if they are less than 20) and then locks the boardBarrier.
+The ferry sleeps for 5 seconds to simulate the route, and then it unlocks the disembarkBarrier for the cars to disembark.
+It also sleeps for 3 seconds before exiting, so that all the cars have disembarked before the next route starts.
