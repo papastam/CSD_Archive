@@ -49,3 +49,8 @@ The full course list can be found [here](https://www.csd.uoc.gr/CSD/index.jsp?co
 
 - [HY436](/HY436/): Software Defined Networks *[(website)](https://github.com/papastam/HY436)*
 - [HY452](/HY425/): Introduction to the Science and Technology of Services *[(website)](https://csd.uoc.gr/~hy452/)*
+
+## 8th Semester *(spring 2023)*
+
+- [HY111](/HY111/): Calculus II *[(website)](https://csd.uoc.gr/~hy111/)*
+- [HY455](/HY455/): Cybersecurity Lab *[(website)](https://csd.uoc.gr/~hy455/)*
