@@ -1,0 +1,11 @@
+XRISTOS PAPASTAMOS csd4569@csd.uoc.gr
+Gia thn ulopoihsh ths askhshs xrhshmopoihsa ena while(1) loop sto opoio gia arxh diavazw to input string kai epeita to ektelw
+
+Protwn to inputstr kovetai se kathe ';' kai to kathe command pou orizoun ta semicolumns ekteleitai ksexwrista.
+Epeita, to command kovetai se kathe ' '. To prwto kommati einai to command kai epeita akolouthoun ta arguements. Kathe arguement elenxetai an einai ena apo ta '<','>','>>','|' kai an einai, ginetai raise to antistoixo flag gia redirection h gia pipe
+An den uparxei kapoio ap ta duo, to command apothikevetai sto args[] kai ekteleitai me thn sunarthsh execute(args)
+An entopistei redirection, to epomeno kommati einai to filename. Epomenws xrhshmopoiontas thn dup2() ginetai overwrite to antistoixo file descriptor me to file pou exei zhthsei o xrhsths.
+An entopistei pipe, ta individual commands apothikevontai sto pipecmd[]. Epeita gia kathe command ginetai overwrite sta stdin kai stdout ta antistoixa pipe fds (Sto prwto den allazei to stdin kai sto teleftaio to stdout) kai telos ekteleite to command
+
+Telos, prin ksanarxisei ap thn arxh to while(1) loop, epanaferontai ta stdin kai stdout file descriptors kai ginontai close auta pou xreiasthke na anoiksoun gia thn ektelesh twn commands.
+

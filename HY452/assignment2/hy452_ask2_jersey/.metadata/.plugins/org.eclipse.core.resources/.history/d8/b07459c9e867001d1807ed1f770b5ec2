@@ -1,0 +1,13 @@
+package com.example.TaskC_hy452;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TaskCHy452Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TaskCHy452Application.class, args);
+	}
+
+}
