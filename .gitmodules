@@ -22,3 +22,12 @@
 [submodule "HY455/HY455_Cybersecurity"]
 	path = HY455/HY455_Cybersecurity
 	url = https://github.com/papastam/HY455_Cybersecurity
+[submodule "HY330/HY330"]
+	path = HY330/HY330
+	url = https://github.com/papastam/HY330
+[submodule "HY425/HY425"]
+	path = HY425/HY425
+	url = https://github.com/papastam/HY425
+[submodule "HY352/HY352"]
+	path = HY352/HY352
+	url = https://github.com/papastam/HY352
