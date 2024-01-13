@@ -54,3 +54,9 @@ The full course list can be found [here](https://www.csd.uoc.gr/CSD/index.jsp?co
 
 - [HY111](/HY111/): Calculus II *[(website)](https://csd.uoc.gr/~hy111/)*
 - [HY455](/HY455/): Cybersecurity Lab *[(website)](https://csd.uoc.gr/~hy455/)*
+
+## 9th Semester *(winter 2023)*
+
+- [HY330](/HY330/): Telecommunications *[(website)](https://csd.uoc.gr/~hy330/)*
+- [HY425](/HY425/): Computer Architecture *[(website)](https://csd.uoc.gr/~hy425/)*
+- [HY352](/HY352/): Software Engeneering *[(website)](https://csd.uoc.gr/~hy352/)*
