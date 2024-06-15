@@ -1,5 +1,5 @@
 # [CSD](https://csd.uoc.gr)@[UoC](https://www.uoc.gr/) Archived Classes
-In this repository you can find the classes i attended at the [Computer Science Department](https://csd.uoc.gr) of the [University of Crete](https://www.uoc.gr/).
+In this repository you can find matterial (mostly assignments) from the classes I attended at the [Computer Science Department](https://csd.uoc.gr) of the [University of Crete](https://www.uoc.gr/).
 
 The full course list can be found [here](https://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=en).
 # Classes
@@ -60,3 +60,9 @@ The full course list can be found [here](https://www.csd.uoc.gr/CSD/index.jsp?co
 - [HY330](/HY330/): Telecommunications *[(website)](https://csd.uoc.gr/~hy330/)*
 - [HY425](/HY425/): Computer Architecture *[(website)](https://csd.uoc.gr/~hy425/)*
 - [HY352](/HY352/): Software Engeneering *[(website)](https://csd.uoc.gr/~hy352/)*
+
+## 10th Semester *(spring 2024)*
+
+- [Bachelor Thesis](/mini_internet_extention/): Mini-internet Extention
+- ~~HY380~~: Algorithms and Complexity *[(website)](https://csd.uoc.gr/~hy380/)*
+- ~~MEM343~~: Entrepreneurship and Innovation *[(website)](http://www.math.uoc.gr/el/mem343.html)*

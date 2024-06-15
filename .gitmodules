@@ -31,3 +31,6 @@
 [submodule "HY352/HY352"]
 	path = HY352/HY352
 	url = https://github.com/papastam/HY352
+[submodule "mini_internet_extention"]
+	path = mini_internet_extention
+	url = https://github.com/papastam/mini_internet_extention
