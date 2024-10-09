@@ -1,9 +1,9 @@
-# [CSD](https://csd.uoc.gr)@[UoC](https://www.uoc.gr/) Archived Classes
-In this repository you can find matterial (mostly assignments) from the classes I attended at the [Computer Science Department](https://csd.uoc.gr) of the [University of Crete](https://www.uoc.gr/).
+# [CSD](https://csd.uoc.gr)@[UoC](https://www.uoc.gr/) Archived Courses
+This repository holds matterial (mostly assignments) from the courses I attended while studying at [Computer Science Department](https://csd.uoc.gr) of the [University of Crete](https://www.uoc.gr/).
 
 The full course list can be found [here](https://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=en).
-# Classes
-*MEMO: The classes are sorted by semester and then by course code. The classes with ~~strikethrough~~ format are classes i attended but i have no saved matterial*
+# Courses
+*MEMO: Courses are sorted by semester and then by code. Courses with ~~strikethrough~~ format were attended but no matterial was saved*
 ## 1st Semester *(winter 2019)*
 - [HY100](/HY100/): Introduction to Computer Science *[(website)](https://csd.uoc.gr/~hy100/)*
 - ~~HY110~~: Calculus I *[(website)](https://csd.uoc.gr/~hy110/)*
